@@ -1,0 +1,103 @@
+/* Body */ 
+
+body {
+
+    margin : 0px;
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Lists */
+
+ul { list-style: none;
+    padding: 0px;
+
+} 
+
+a {text-decoration: none; 
+    
+    color : white;}
+
+li {
+    display: inline;
+    padding : 10px;
+}
+
+
+/* Header */
+
+.header {
+    background-color: #1F2937 ;
+    color : white;
+    padding-left  : 70px;
+}
+
+/* Sub-header 1 */
+
+.sub-header1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left : 80px;
+    margin-right : 250px;
+    align-items: center;
+    margin-bottom : 20px;
+}
+
+.sub-header1 img { width: 150px;
+height: 100px;
+margin : 15px;
+
+}
+
+.sub-header1 a {
+
+    border : 5px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 15px;
+    font-size : 18px; 
+    color : #E5E7EB;
+}
+
+
+/* Sub-header 2 */
+
+.sub-header2  {
+    display: flex;
+    margin : 30px;
+    margin-bottom : 80px;
+    align-items: center;
+
+}
+
+.sub-header2 h1 { font-size : 48px;
+    font-weight : bold;
+    color : #F9F1F8;
+    margin : 0px;
+}
+
+.sub-header2 p { font-size : 18px; color : #E5E7EB; display: inline-block;
+    margin-top : 10px;
+    margin-bottom : 30px;
+  
+}
+
+.sub-header2 img { width: 700px;
+    height: 400px;
+}
+
+.sub-header2 button {color : white;
+    background-color: #3882F6 ;
+    padding : 10px;
+    padding-right : 20px;
+    padding-left: 20px;
+    border-radius : 10px;
+    font-size : 15px;
+}
+
+.block1 { margin-right : 130px; width : 600px; flex-shrink:0;
+margin-left : 70px;}
+
+
